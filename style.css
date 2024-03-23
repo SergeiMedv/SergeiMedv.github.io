@@ -1,0 +1,173 @@
+
+@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+    body {
+        background-image: url("images/desktop1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    main {
+        display: flex;
+        width: 100%;
+    }
+    
+    .resume {
+        display: flex;
+        width: 50%;
+        margin: 50px 0 50px 75px;
+
+    }
+
+    .personal-data {
+
+        width: 30%;
+        background-color: rgb(0, 0, 0, 0.75);
+        
+        
+    }
+
+    .professional-data {
+
+        width: 70%;
+        background-color: white;
+       
+    }
+
+    .photo  {
+        width: 100%;
+    
+    }
+  
+    .name {
+        margin: 0 0 0 80px;
+        background: linear-gradient(to right, white, rgba(153, 153, 153, 1));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: white;
+        font: bold 96px/1.5 sans-serif;
+        
+    }
+
+    .title {
+        margin: 0 0 0 80px;
+        background: linear-gradient(to right, white, rgba(153, 153, 153, 1));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: white;
+        font: bold 54px/1.5 sans-serif; 
+    }
+
+    .heading {
+        color: rgba(78, 174, 228, 1);
+        font: bold 72px/1.5 sans-serif; 
+        margin: 80px 80px 0 80px;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-image: linear-gradient(to right, rgba(78, 174, 228, 1), rgba(43, 96, 126, 1)) 1;
+    }
+
+    i, ul {
+        margin: 20px 100px 0 80px;
+        font: 38px/1.5 sans-serif;
+        color: white;
+        font-style: italic;
+    }
+
+ 
+    .contacts {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 20px 100px 0 80px;
+        font: 38px/1.5 sans-serif;
+        color: white;
+        font-style: italic;
+    }
+
+    .contacts img {
+        width: 80px;
+        margin: 0 50px 0 0;
+    }
+    
+    footer {
+        margin: 200px;
+    }
+
+    .professional-data-block {
+        display: flex;
+        align-items: end;
+        justify-content: flex-start;
+        margin: 100px 100px 100px 120px;
+        font: bold 72px/1.2 sans-serif; 
+        color: rgb(62, 62, 62);
+        
+     
+    }
+
+    .professional-data-block img {
+        width: 100px;
+        margin: 0 50px 0 0;
+        padding-bottom: 10px;
+    }
+    .professional-data-block span {
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-image: linear-gradient(to right, rgba(78, 174, 228, 1), rgba(43, 96, 126, 1)) 1;
+        width: 85%;
+    }
+
+    .year {
+        margin: 0 0 0 270px;
+        width: 12%;
+    }
+
+    .year p {
+        font: bold 42px/1.5 sans-serif; 
+        margin: 0 0 50px 0;
+        
+    }
+
+    
+    .image {
+      background:
+      radial-gradient(1.6em 1.6em at 50% 3%, rgb(78, 174, 228) 50%, transparent 50%),
+
+      linear-gradient( rgb(177, 174, 174),rgb(177, 174, 174)) 50% 50% / 0.8em 35em;
+      background-repeat: no-repeat;
+      width: 5%;
+    }
+
+    .pdb {
+        display: flex;
+    }
+
+    .text-pdb {
+        width: 58%;
+
+    }
+
+    .text-pdb h1 {
+        margin: 0 0 0 0;
+        font: bold 42px/1.5 sans-serif; 
+    }
+    .text-pdb p {
+        margin: 15px 0 50px 0;
+        font:  36px/1.5 sans-serif; 
+    }
+
+    .image-education {
+        background:
+        radial-gradient(1.6em 1.6em at 50% 7%, rgb(78, 174, 228) 50%, transparent 50%),
+  
+        linear-gradient( rgb(177, 174, 174),rgb(177, 174, 174)) 50% 50% / 0.8em 35em;
+        background-repeat: no-repeat;
+        width: 5%;
+    }
+
+    .image-skils {
+        background:
+        radial-gradient(1.6em 1.6em at 50% 50%, rgb(78, 174, 228) 50%, transparent 50%);
+        background-repeat: no-repeat;
+        width: 5%; 
+        margin-left: 120px;
+    }
